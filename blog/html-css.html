@@ -1,17 +1,25 @@
 <html>
   <style>
     .my-border {
-      border-style: solid;
-      border-color: black;
-      border-width: 2px;
-      margin: 20px 100px 20px 20px;
-      background-color: lightblue;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 20px 100px 20px 20px;
+    background-color: lightblue;
     }
 
     .thin-red-border {
-      border-color: red;
-      border-width: 2px;
-      border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    }
+
+    .new-thin-red-border {
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px 100px 20px 20px;
+    padding: 20px 100px 20px 20px:
     }
   </style>
   <body>
@@ -64,7 +72,6 @@
           border-width: 2px;
           border-style: solid;
         }
-      
       &lt;/style&gt;
     </pre>
     <p>
@@ -76,11 +83,55 @@
 
     <pre class="thin-red-border">
    &lt;p class="thin-red-border"&gt;
-   insert some random text here to put the border around 
+   insert some random text here to put the border around so show this imaginary
+   audience how it's done...
    but dont forget to put something actually relevant or funny 
-   so this actually has a chance of being coherant...
+   so this actually has a chance of being coherant or simply readable...
    &lt;/p&gt;
    </pre
     >
+    <p>
+      And there you go. Now working with margins and paddings are very similar.
+      You can simply add their properties to your style border. Remember that
+      these properties are not restricted to just working with borders but for
+      the sake of this example, that's exactly what we will be doing.
+    </p>
+    <pre class="my-border">
+    
+       &lt;style&gt;
+        .new-thin-red-border {
+          border-color: red;
+          border-width: 2px;
+          border-style: solid;
+          margin: 20px 100px 20px 20px;
+          padding: 20px 100px 20px 20px:
+        }
+      
+      &lt;/style&gt;
+    </pre>
+    <p>
+      Notice that we have added two new properties to our current style class to
+      create a new one. The margin and padding works in a clock-wise rotation so
+      the top, bottom, and left side of the border lines will have an open space
+      of 20 pixels, and the right side has a space of 100 pixels.
+    </p>
+    <pre class="new-thin-red-border">
+   &lt;p class="new-thin-red-border"&gt;
+   insert some random text here to put the border around so show this imaginary
+   audience how it's done...
+   but dont forget to put something actually relevant or funny 
+   so this actually has a chance of being coherant or simply readable...
+   &lt;/p&gt;
+   </pre
+    >
+    <p>
+      Can you see the difference? Working with borders, margins, and paddings
+      can be intimidating at first to most beginner coders (I know it certainly
+      was for me) but once you got the basics down (or dare I say, laid down
+      your foundation...), you will find that it's all a matter of bossing your
+      computer around, telling it what to do. Now I encourage you, dear reader
+      to go give it a shot for yourself. Don't confine yourself to a thick
+      border with minimal padding and over-exaggerated margins.
+    </p>
   </body>
 </html>
