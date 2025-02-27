@@ -7,6 +7,12 @@
       margin: 20px 100px 20px 20px;
       background-color: lightblue;
     }
+
+    .thin-red-border {
+      border-color: red;
+      border-width: 2px;
+      border-style: solid;
+    }
   </style>
   <body>
     <h1>What is the difference between Margin, Border, and Padding?</h1>
@@ -42,11 +48,12 @@
       you’d like to separate the text withing the border and the border’s
       outline.
     </p>
-
+    <h1>How to add a Border, Margin, and/or Padding</h1>
     <p>
       When wanting to insert borders, margins, or paddings to your website, it
-      is recommended to start with your style block where you can create a CSS
-      selector for any paragraph you wish to give a border, padding or margin.
+      is recommended to start with your style block where you can create a
+      border class element that can be applied to any paragraph you wish to give
+      a border, padding or margin.
     </p>
 
     <pre class="my-border">
@@ -54,11 +61,26 @@
        &lt;style&gt;
         .thin-red-border {
           border-color: red;
-          border-width: 5px;
+          border-width: 2px;
           border-style: solid;
         }
       
       &lt;/style&gt;
     </pre>
+    <p>
+      here we are creating a class element named "thin-red-border" that will
+      have red solid line that is two pixels thick. now if we were to give a
+      chunck of text this border, we would inset this class element within our
+      paragraph (or p) element to give us our border.
+    </p>
+
+    <pre class="thin-red-border">
+   &lt;p class="thin-red-border"&gt;
+   insert some random text here to put the border around 
+   but dont forget to put something actually relevant or funny 
+   so this actually has a chance of being coherant...
+   &lt;/p&gt;
+   </pre
+    >
   </body>
 </html>
