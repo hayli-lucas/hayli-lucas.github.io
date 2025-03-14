@@ -23,3 +23,14 @@
 .image-container {
   text-align: center;
 }
+
+.green-text {
+  color: green;
+}
+.light-green-background {
+  background-color: lightgreen;
+}
+
+body {
+  text-align: center;
+}
