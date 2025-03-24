@@ -34,3 +34,7 @@
 body {
   text-align: center;
 }
+
+.question {
+  font-weight: bold;
+}
