@@ -38,3 +38,9 @@ body {
 .question {
   font-weight: bold;
 }
+
+.flexible-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
