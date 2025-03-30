@@ -9,7 +9,7 @@
 </html>
 
 <body>
-  <div class="image-container">
+  <div class="image-container", class="flexible-container">
     <a href="#"
       ><img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkDdVe0dXhnfNX9t6GAzY0wEQ2YoJiNxtFNA&s"
@@ -19,30 +19,32 @@
     <h1>An Extreamly Basic Introduction to JavaScript</h1>
   </div>
 
-  <p>
-    The relationship between JavaScript, HTML and CSS can be described as three
-    components of a theatre production. HTML being the script of the play that
-    defines the structure of the performance; HTML instructs what lines to say
-    and what the scene should look like. It’s the foundation of your website.
-    CSS oversees the costumes, lighting and set design. It adds all the visuals
-    that draw in the audience’s attention, enhancing the experience for the
-    viewer. All there is left is JavaScript, the director. JavaScript controls
-    the actions and interactions on stage; it makes the actors move and adds all
-    the surprise twists to the plot. When building a website, JavaScript reacts
-    to user inputs and makes things happen dramatically on your page.
-  </p>
 
-  <p>
-    When working with JavaScript, you’ll have to have an understanding of a
-    “control flow” and “loops”. Control loops are if/else statements that makes
-    decisions based on current conditions. Let’s say you want to make a cup of
-    coffee, in order to make a cup of coffee, in order to successfully make a
-    cup of coffee you will need all of the ingredients and equipment to prepare
-    the coffee. Once these conditions are met, you can perform the function of
-    making a nice cuppa but only IF those conditions are true.
-  </p>
+    <p>
+      The relationship between JavaScript, HTML and CSS can be described as
+      three components of a theatre production. HTML being the script of the
+      play that defines the structure of the performance; HTML instructs what
+      lines to say and what the scene should look like. It’s the foundation of
+      your website. CSS oversees the costumes, lighting and set design. It adds
+      all the visuals that draw in the audience’s attention, enhancing the
+      experience for the viewer. All there is left is JavaScript, the director.
+      JavaScript controls the actions and interactions on stage; it makes the
+      actors move and adds all the surprise twists to the plot. When building a
+      website, JavaScript reacts to user inputs and makes things happen
+      dramatically on your page.
+    </p>
 
-  <pre class="my-border" , class="image-container">
+    <p>
+      When working with JavaScript, you’ll have to have an understanding of a
+      “control flow” and “loops”. Control loops are if/else statements that
+      makes decisions based on current conditions. Let’s say you want to make a
+      cup of coffee, in order to make a cup of coffee, in order to successfully
+      make a cup of coffee you will need all of the ingredients and equipment to
+      prepare the coffee. Once these conditions are met, you can perform the
+      function of making a nice cuppa but only IF those conditions are true.
+    </p>
+
+    <pre class="my-border" , class="image-container">
     if (HasAllIngredients = True && HasWorkingEquipment = True) {
       return "Sweet lets make some coffee!"
     }
@@ -50,64 +52,67 @@
       return "Uh oh... looks like we're forgetting something"
     }
  </pre
-  >
+    >
 
-  <p>
-    Loops on the other hand, will take you through a certain process UNTIL a
-    specified criteria is met. Imagine that we have a list of chores to do in
-    order to get ready for work; You have to brush your teeth, have breakfast,
-    have a shower, get changed, and all other habits that you fit into your own
-    routine. A for loop will go through this list until you have checked off
-    each item then indicating that the list has been completed.
-  </p>
+    <p>
+      Loops on the other hand, will take you through a certain process UNTIL a
+      specified criteria is met. Imagine that we have a list of chores to do in
+      order to get ready for work; You have to brush your teeth, have breakfast,
+      have a shower, get changed, and all other habits that you fit into your
+      own routine. A for loop will go through this list until you have checked
+      off each item then indicating that the list has been completed.
+    </p>
 
-  <pre class="my-border" , class="image-container">
+    <pre class="my-border" , class="image-container">
     let chores = [brush teeth, shower, breakfast, pack bag, grab keys, put on shoes]
     for (i = 0; i&lt;chores.length - 1; i++) {
       console.log('Chore: ' + chores[i])
     }
-  </pre>
+  </pre
+    >
 
-  <h1>WHAT IS A DOM?</h1>
-  <p>
-    A useful tool you should be aware of on your coding journey is the DOM
-    (Document Object Model). The DOM can be described as a detailed map of
-    whatever website on any browser. The Dom is essentially a built-in code
-    editor to your browser where you can make temporary changes and experiment
-    with different functions and formats.
-  </p>
+    <h1>WHAT IS A DOM?</h1>
+    <p>
+      A useful tool you should be aware of on your coding journey is the DOM
+      (Document Object Model). The DOM can be described as a detailed map of
+      whatever website on any browser. The Dom is essentially a built-in code
+      editor to your browser where you can make temporary changes and experiment
+      with different functions and formats.
+    </p>
 
-  <h1>
-    Explain the difference between accessing data from arrays and objects.
-  </h1>
-  <p>
-    The key difference you need to know between objects and arrays is that an
-    array is essentially an order of items or data (a list) that you can extract
-    from and manipulate.
-  </p>
+    <h1>
+      Explain the difference between accessing data from arrays and objects.
+    </h1>
+    <p>
+      The key difference you need to know between objects and arrays is that an
+      array is essentially an order of items or data (a list) that you can
+      extract from and manipulate.
+    </p>
 
-  <p>let shopping_list = [apples, milk, bread, crackers, jam]</p>
+    <p>let shopping_list = [apples, milk, bread, crackers, jam]</p>
 
-  <p>
-    Objects are a collection of data set in key-value pairs that is not ordered
-    but is instead grouped into meaningful labels.
-  </p>
-  <pre>
+    <p>
+      Objects are a collection of data set in key-value pairs that is not
+      ordered but is instead grouped into meaningful labels.
+    </p>
+    <pre>
     let person = {
       name: 'John',
       age: 30,
       city: 'New York'
     };
-  </pre>
+  </pre
+    >
 
-  <h1>What is a Function and Why is it Helpful?</h1>
-  <p>
-    Coding is essentially telling your computer to do a bunch of commands to
-    perform a certain task. You have to be really specific about what it is you
-    want your computer to do in order to get the most accurate output; This can
-    be very tedious and is just overall not good coding etiquette. A good rule
-    of thumb to follow is that each task should have its own function. This will
-    also help avoid repetition, allow easier debugging, and just make everything
-    more organised for yourself and your team.
-  </p>
+    <h1>What is a Function and Why is it Helpful?</h1>
+    <p>
+      Coding is essentially telling your computer to do a bunch of commands to
+      perform a certain task. You have to be really specific about what it is
+      you want your computer to do in order to get the most accurate output;
+      This can be very tedious and is just overall not good coding etiquette. A
+      good rule of thumb to follow is that each task should have its own
+      function. This will also help avoid repetition, allow easier debugging,
+      and just make everything more organised for yourself and your team.
+    </p>
+  </div>
 </body>
