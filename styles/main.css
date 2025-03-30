@@ -40,7 +40,7 @@ body {
 }
 
 .flexible-container {
-  display: flex;
+  display: row;
   justify-content: center;
   align-items: center;
 }
