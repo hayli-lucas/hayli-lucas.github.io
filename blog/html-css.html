@@ -16,48 +16,51 @@
       <h1>What is the difference between Margin, Border, and Padding?</h1>
     </div>
 
-    <p>
-      In CSS we are given many tools, commands, and properties to work with.
-      They enable coders and web designers to beautify their work, making their
-      sites coherent, easy on the eyes, and all-together more fun to look at and
-      explore. This includes creating margins, borders, and paddings that
-      surrounds/outlines text and/or images. Understanding the differences
-      between the three are crucial to using each correctly and to their full
-      potential.
-    </p>
+    <div class="flexible-container">
+      <p>
+        In CSS we are given many tools, commands, and properties to work with.
+        They enable coders and web designers to beautify their work, making
+        their sites coherent, easy on the eyes, and all-together more fun to
+        look at and explore. This includes creating margins, borders, and
+        paddings that surrounds/outlines text and/or images. Understanding the
+        differences between the three are crucial to using each correctly and to
+        their full potential.
+      </p>
 
-    <p>
-      Creating a border is akin to drawing a bow around a chunk of text. You can
-      draw this box in your code editor by inserting your border class within
-      the style block where you can give it specific properties, customizing the
-      border colour, style and width. A border is great for isolating a specific
-      section of your website or highlighting its contents to illustrate its
-      importance.
-    </p>
+      <p>
+        Creating a border is akin to drawing a bow around a chunk of text. You
+        can draw this box in your code editor by inserting your border class
+        within the style block where you can give it specific properties,
+        customizing the border colour, style and width. A border is great for
+        isolating a specific section of your website or highlighting its
+        contents to illustrate its importance.
+      </p>
 
-    <p>
-      Margins and paddings are like two sides of the same coin; they determine
-      how much space is given outside and inside a border relevant to its
-      contents. Now, you don’t have to have a border in order to add margins or
-      paddings to your website; The way that they’re written are also very
-      similar to how you would insert a border into your code. You can customise
-      your margins by specifying how many pixels of space you’d like to stand
-      between your border and the frame of the device that is viewing the
-      website. Padding is almost exactly as you choose how many pixels of space
-      you’d like to separate the text withing the border and the border’s
-      outline.
-    </p>
+      <p>
+        Margins and paddings are like two sides of the same coin; they determine
+        how much space is given outside and inside a border relevant to its
+        contents. Now, you don’t have to have a border in order to add margins
+        or paddings to your website; The way that they’re written are also very
+        similar to how you would insert a border into your code. You can
+        customise your margins by specifying how many pixels of space you’d like
+        to stand between your border and the frame of the device that is viewing
+        the website. Padding is almost exactly as you choose how many pixels of
+        space you’d like to separate the text withing the border and the
+        border’s outline.
+      </p>
 
-    <h1 class="image-container">How to add a Border, Margin, and/or Padding</h1>
+      <h1 class="image-container">
+        How to add a Border, Margin, and/or Padding
+      </h1>
 
-    <p>
-      When wanting to insert borders, margins, or paddings to your website, it
-      is recommended to start with your style block where you can create a
-      border class element that can be applied to any paragraph you wish to give
-      a border, padding or margin.
-    </p>
+      <p>
+        When wanting to insert borders, margins, or paddings to your website, it
+        is recommended to start with your style block where you can create a
+        border class element that can be applied to any paragraph you wish to
+        give a border, padding or margin.
+      </p>
 
-    <pre class="my-border">
+      <pre class="my-border">
     
        &lt;style&gt;
         .thin-red-border {
@@ -66,15 +69,16 @@
           border-style: solid;
         }
       &lt;/style&gt;
-    </pre>
-    <p>
-      Here we are creating a class element named "thin-red-border" that will
-      have red solid line that is two pixels thick. now if we were to give a
-      chunk of text this border, we would inset this class element within our
-      paragraph (or p) element to give us our border.
-    </p>
+    </pre
+      >
+      <p>
+        Here we are creating a class element named "thin-red-border" that will
+        have red solid line that is two pixels thick. now if we were to give a
+        chunk of text this border, we would inset this class element within our
+        paragraph (or p) element to give us our border.
+      </p>
 
-    <pre class="thin-red-border">
+      <pre class="thin-red-border">
    &lt;p class="thin-red-border"&gt;
    insert some random text here to put the border around so show this imaginary
    audience how it's done...
@@ -82,14 +86,15 @@
    so this actually has a chance of being coherant or simply readable...
    &lt;/p&gt;
    </pre
-    >
-    <p>
-      And there you go. Now, working with margins and paddings are very similar.
-      You can simply add their properties to your style border. Remember that
-      these properties are not restricted to just working with borders but for
-      the sake of this example, that's exactly what we will be doing.
-    </p>
-    <pre class="my-border">
+      >
+      <p>
+        And there you go. Now, working with margins and paddings are very
+        similar. You can simply add their properties to your style border.
+        Remember that these properties are not restricted to just working with
+        borders but for the sake of this example, that's exactly what we will be
+        doing.
+      </p>
+      <pre class="my-border">
     
        &lt;style&gt;
         .new-thin-red-border {
@@ -101,14 +106,16 @@
         }
       
       &lt;/style&gt;
-    </pre>
-    <p>
-      Notice that we have added two new properties to our current style class to
-      create a new one. The margin and padding works in a clock-wise rotation so
-      the top, bottom, and left side of the border lines will have an open space
-      of 20 pixels, and the right side has a space of 100 pixels.
-    </p>
-    <pre class="new-thin-red-border">
+    </pre
+      >
+      <p>
+        Notice that we have added two new properties to our current style class
+        to create a new one. The margin and padding works in a clock-wise
+        rotation so the top, bottom, and left side of the border lines will have
+        an open space of 20 pixels, and the right side has a space of 100
+        pixels.
+      </p>
+      <pre class="new-thin-red-border">
    &lt;p class="new-thin-red-border"&gt;
    insert some random text here to put the border around so show this imaginary
    audience how it's done...
@@ -116,15 +123,17 @@
    so this actually has a chance of being coherant or simply readable...
    &lt;/p&gt;
    </pre
-    >
-    <p>
-      Can you see the difference? Working with borders, margins, and paddings
-      can be intimidating at first to most beginner coders (I know it certainly
-      was for me) but once you got the basics down (or dare I say, laid down
-      your foundation...), you will find that it's all a matter of bossing your
-      computer around, telling it what to do. Now I encourage you, dear reader
-      to go give it a shot for yourself. Don't confine yourself to a thick
-      border with minimal padding and over-exaggerated margins.
-    </p>
+      >
+      <p>
+        Can you see the difference? Working with borders, margins, and paddings
+        can be intimidating at first to most beginner coders (I know it
+        certainly was for me) but once you got the basics down (or dare I say,
+        laid down your foundation...), you will find that it's all a matter of
+        bossing your computer around, telling it what to do. Now I encourage
+        you, dear reader to go give it a shot for yourself. Don't confine
+        yourself to a thick border with minimal padding and over-exaggerated
+        margins.
+      </p>
+    </div>
   </body>
 </html>
