@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <title>Problem Solving</title>
+  </head>
+</html>
+
+<body>
+  <a class="image-container" href="#"
+    ><img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkDdVe0dXhnfNX9t6GAzY0wEQ2YoJiNxtFNA&s"
+      alt="A Rotuman Tefui."
+  /></a>
+  <div class="flexible-container">
+    <h1>Problem Solving</h1>
+
+    <p>
+      Through our journey, we have encountered many problems that left us with
+      our heads in our hands. In this blog, I will take you through a particular
+      problem I faced during Sprint 4’s Kata challenge and how the problem got
+      solved. We will also dive into some other problem-solving techniques that
+      can be explored and utilized in future scenarios.
+    </p>
+
+    <p>
+      During the Built-In Methods section of the Kata challenge, I was
+      instructed to use built-in commands so that my function will return a
+      certain result and pass the tests. Now each part of the section had its
+      own issues but the one that really stands out and that I will talk about
+      was writing the whereAreYou function. This function took an array of
+      objects as a parameter and what I had to do was use array’s ‘.find()’
+      method look for one word (“Scooby”) amongst the array of objects. Upon
+      first glance, I was not given the array of object that my code was
+      supposed to sift through. This was easily solved by console logging the
+      array which would display the array that I was working with.
+    </p>
+
+    <p>
+      The real issue I had to deal with was simply the fact that no matter what
+      I did, I couldn’t pass the tests, I couldn’t find Scooby. So I started
+      trying to use different methods to get the desired result. I started by
+      using what’s called the ‘rubber duck’ method, where you try explaining
+      your problem to an inanimate object and talking to it like you would a
+      person. Sometimes you are able to spot a problem just by explaining it out
+      loud, describing it like you would to a facilitator in hopes of the
+      solution just coming to you. That proved to be unsuccessful in my case so
+      I moved on to another method feeling slightly more frustrated.
+    </p>
+
+    <p>
+      I tried using pseudocode to help guide myself through the problem. Where
+      comments are inserted into the function that aid the author of the code
+      and provide a visual aid, breaking down the function and describing what
+      each line does. The issue with that solution was that this was a built-in
+      method challenge, i.e. the solution was probably going to be a single line
+      of code so there was really nothing to break down.
+    </p>
+
+    <p>
+      Finally I just decided to turn to Google and search up everything I could
+      about the .find() method. I needed to know how to pinpoint exactly what it
+      is I wanted to find and that my code returns the object in which Scooby is
+      hiding not anything else. From there I utilised one final method – try
+      anything. From there it was only a matter of trial and error. Making small
+      changes at a time and continuously console logging my function to see
+      where it is that I am going wrong until finally, we found Scooby and all
+      the tests were passed.
+    </p>
+  </div>
+</body>
